@@ -1,0 +1,14 @@
+server:
+  port: 8001
+
+okta:
+  oauth2:
+    issuer: https://dev-86232668.okta.com/oauth2/default
+    clientId: 0oa6twnps06pTJVRF5d7
+    clientSecret: aG17afGi7_hNyBEtDDbUBJ5Uv18RVaW73GKvURLC
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "refresh"
